@@ -1,0 +1,168 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.1)
+  - AliyunOSSiOS (2.10.7)
+  - Bugtags (3.2.0):
+    - Bugtags/Core (= 3.2.0)
+  - Bugtags/Core (3.2.0)
+  - Cache (5.2.0)
+  - DTCoreText (1.6.23):
+    - DTCoreText/Core (= 1.6.23)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.23):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.14)
+  - DTFoundation/DTAnimatedGIF (1.7.14)
+  - DTFoundation/DTHTMLParser (1.7.14):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.14):
+    - DTFoundation/Core
+  - ESTabBarController-swift (2.7)
+  - HandyJSON (5.0.1)
+  - hprose (2.0.3)
+  - Hue (5.0.0)
+  - IQKeyboardManagerSwift (6.5.4)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.2.0)
+  - PopupController (0.2.0)
+  - Reachability (3.2)
+  - ReactiveCocoa (10.1.0):
+    - ReactiveSwift (~> 6.1)
+  - ReactiveSwift (6.1.0)
+  - Siren (5.2.3)
+  - SnapKit (4.2.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftDate (6.1.0)
+  - SwiftPhotoGallery (3.4.1)
+  - SwiftyBeaver (1.8.3)
+  - SwiftyJSON (5.0.0)
+  - TagListView (1.4.0)
+  - TBEmptyDataSet (3.0)
+  - TimedSilver (1.2.0)
+  - Toast-Swift (5.0.0)
+  - XCDYouTubeKit (2.8.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Alamofire
+  - AliyunOSSiOS
+  - Bugtags
+  - Cache
+  - DTCoreText
+  - ESTabBarController-swift
+  - HandyJSON
+  - hprose
+  - Hue
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MJRefresh
+  - PopupController
+  - Reachability
+  - ReactiveCocoa
+  - Siren
+  - SnapKit
+  - SQLite.swift
+  - SVProgressHUD
+  - SwiftDate
+  - SwiftPhotoGallery
+  - SwiftyBeaver
+  - SwiftyJSON
+  - TagListView
+  - TBEmptyDataSet
+  - TimedSilver
+  - Toast-Swift
+  - XCDYouTubeKit
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - AliyunOSSiOS
+    - Bugtags
+    - Cache
+    - DTCoreText
+    - DTFoundation
+    - ESTabBarController-swift
+    - HandyJSON
+    - hprose
+    - Hue
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - PopupController
+    - Reachability
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Siren
+    - SnapKit
+    - SQLite.swift
+    - SVProgressHUD
+    - SwiftDate
+    - SwiftPhotoGallery
+    - SwiftyBeaver
+    - SwiftyJSON
+    - TagListView
+    - TBEmptyDataSet
+    - TimedSilver
+    - Toast-Swift
+    - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
+  Bugtags: e6c7b16f46482cc12b61476e2836f1d2d1572307
+  Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
+  DTCoreText: 67023bb51b26711d5f640c851f4845aea14c24c9
+  DTFoundation: 25aa19bb7c6e225b1dfae195604fb8cf1da0ab4c
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  hprose: 8b021625ba6ce9e4e2ae8eeb7170be89bf5ffc1a
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  PopupController: 0b69fdf11cbeaa807789a8c3992599083640988f
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: 2f1d942d79072eded6d8c3bc7c2a641d40855a56
+  ReactiveSwift: b78c7259f8ca46368238c895ae33a6a3bf9f811c
+  Siren: 996f37869eae1f343f8c11f17d90c9c8da90bd4c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  SwiftPhotoGallery: 795b79e2596beb160fb978e232603da0811006ce
+  SwiftyBeaver: 3d3e93a12d648bd400b6f2948a7ef128b5b183c7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
+  TBEmptyDataSet: 349add79095bf66d0d11ef9464edd1a8cf5354b5
+  TimedSilver: 2ee5f45f783a60e6fa8597db5d1d609e03736467
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+  XCDYouTubeKit: 79baadb0560673a67c771eba45f83e353fd12c1f
+
+PODFILE CHECKSUM: e82bd8bb9f174b8001abf32f4e42ccafd4af3540
+
+COCOAPODS: 1.8.3
