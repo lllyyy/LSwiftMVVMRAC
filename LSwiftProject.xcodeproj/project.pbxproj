@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4B1069F1831A78D9A3FA7CCC /* Pods_LSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A7D57C5E3BA6CF6B3B165 /* Pods_LSwiftProject.framework */; };
+		8118D91A238E6787009A5CD2 /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118D919238E6787009A5CD2 /* AboutApp.swift */; };
+		8118D91C238E6811009A5CD2 /* TSGlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118D91B238E6811009A5CD2 /* TSGlobalHelper.swift */; };
+		8118D91E238E6817009A5CD2 /* TSProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118D91D238E6817009A5CD2 /* TSProgressHUD.swift */; };
 		8140DABA23837FD50014A404 /* LLCommonURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DAB923837FD50014A404 /* LLCommonURL.swift */; };
 		8140DABC238380E10014A404 /* LLConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DABB238380E10014A404 /* LLConst.swift */; };
 		8140DABE2383817C0014A404 /* LLCommonFun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DABD2383817C0014A404 /* LLCommonFun.swift */; };
@@ -69,6 +72,9 @@
 /* Begin PBXFileReference section */
 		5976C4E85671878F94A74F42 /* Pods-LSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-LSwiftProject/Pods-LSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		67A249B8814C23305417567A /* Pods-LSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-LSwiftProject/Pods-LSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		8118D919238E6787009A5CD2 /* AboutApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
+		8118D91B238E6811009A5CD2 /* TSGlobalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSGlobalHelper.swift; sourceTree = "<group>"; };
+		8118D91D238E6817009A5CD2 /* TSProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSProgressHUD.swift; sourceTree = "<group>"; };
 		8140DAB923837FD50014A404 /* LLCommonURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLCommonURL.swift; sourceTree = "<group>"; };
 		8140DABB238380E10014A404 /* LLConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLConst.swift; sourceTree = "<group>"; };
 		8140DABD2383817C0014A404 /* LLCommonFun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLCommonFun.swift; sourceTree = "<group>"; };
@@ -333,6 +339,9 @@
 		81E6564F23839DB900B3C8B4 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8118D91D238E6817009A5CD2 /* TSProgressHUD.swift */,
+				8118D91B238E6811009A5CD2 /* TSGlobalHelper.swift */,
+				8118D919238E6787009A5CD2 /* AboutApp.swift */,
 				81E6566C2383BAE100B3C8B4 /* BBProgressHUD.swift */,
 				81E6565023839DB900B3C8B4 /* UIDevice+Extension.swift */,
 				81E6565123839DB900B3C8B4 /* UIColor+Extension.swift */,
@@ -532,6 +541,7 @@
 				8140DAC02383819A0014A404 /* LLCommonColor.swift in Sources */,
 				81E6566A23839DB900B3C8B4 /* RACObserve.swift in Sources */,
 				8140DADA23838D920014A404 /* BBaseViewController.swift in Sources */,
+				8118D91C238E6811009A5CD2 /* TSGlobalHelper.swift in Sources */,
 				81E656892383E7A900B3C8B4 /* ViewController+MASAdditions.m in Sources */,
 				81E6568C2383E7A900B3C8B4 /* MASLayoutConstraint.m in Sources */,
 				81E6565E23839DB900B3C8B4 /* UIDevice+Extension.swift in Sources */,
@@ -545,6 +555,7 @@
 				81E6566023839DB900B3C8B4 /* Int+Extension.swift in Sources */,
 				8140DAC923838D620014A404 /* WKWebViewController.swift in Sources */,
 				8140DADD23838D920014A404 /* BBNavigationController.swift in Sources */,
+				8118D91A238E6787009A5CD2 /* AboutApp.swift in Sources */,
 				81E6566D2383BAE100B3C8B4 /* BBProgressHUD.swift in Sources */,
 				8140DAE123838D920014A404 /* BBShopTabBarController.swift in Sources */,
 				8140DAE023838D920014A404 /* BBaseTableViewModel.swift in Sources */,
@@ -557,6 +568,7 @@
 				8140DADE23838D920014A404 /* BBaseCollectionViewController.swift in Sources */,
 				81E6566723839DB900B3C8B4 /* Double+Extension.swift in Sources */,
 				8149C70923826ED1004327BA /* AppDelegate.swift in Sources */,
+				8118D91E238E6817009A5CD2 /* TSProgressHUD.swift in Sources */,
 				8170AFCA2384CDEA007E0F63 /* LLFoundViewController.swift in Sources */,
 				8140DAD823838D920014A404 /* BBaseViewModel.swift in Sources */,
 				81E656882383E7A900B3C8B4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
